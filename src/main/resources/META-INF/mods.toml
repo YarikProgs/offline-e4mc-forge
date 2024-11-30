@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "e4mcoffline"
+version = "${version}"
+displayName = "E4MC Offline Mod"
+authors = ["Aros", "Syanic"]
+description = '''
+Simply allows Offline/Cracked players to join your e4mc server, now on forge
+'''
+displayURL = "https://github.com/YarikProgs/offline-e4mc-forge"
+#logoFile = ""
+
+[[dependencies.e4mcoffline]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.e4mcoffline]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
